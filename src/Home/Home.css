@@ -1,0 +1,13 @@
+.pc-container{
+   display: grid;
+   grid-template-columns: 3fr 2fr ;
+}
+
+.pc-info{
+   width: 80%;
+   padding: 80px;
+}
+.pc-img{
+   width: 80%;
+   padding: 80px;
+}
