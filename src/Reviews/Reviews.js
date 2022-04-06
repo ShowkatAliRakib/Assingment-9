@@ -13,12 +13,12 @@ const Reviews = () => {
     return (
         <div>
           {
-              reviews.map(review =>
+              reviews.map(singelreview =>
               <div className="rating"
               >
-            <h1>{review.name}</h1> 
-            <h3>Comment: {review.comment}</h3>
-             <h2>Rating: {review.rating}</h2>
+            <h1>{singelreview.name}</h1> 
+            <h3>Comment: {singelreview.comment}</h3>
+             <h2>Rating: {singelreview.rating}</h2>
 
                </div>
 

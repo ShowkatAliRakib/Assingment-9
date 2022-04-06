@@ -7,6 +7,7 @@ import Blogs from './Blogs/Blogs';
 import About from './About/About';
 import Home from './Home/Home';
 import Navbar from './Navbar/Navbar';
+import NotFound from './NotFound/NotFound';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Dashboard" element={<Dashboard/>}></Route>
          <Route path="/Blogs" element={<Blogs/> }></Route>
         <Route path="/About" element={<About/> }></Route>
+        <Route path="/*" element={<NotFound></NotFound> }></Route>
        
       </Routes>
     </div>
