@@ -1,8 +1,12 @@
 
 import { useNavigate } from "react-router-dom";
+import CustomReviews from "../reviewshooks/customeReviews";
+import CustomerReviews from '../customerReviews/CustomerReviews'
 import "./Home.css"
 
 const Home = () => {
+
+    const [reviews, setreviews] = CustomReviews([])
 
     const navigate = useNavigate()
     
@@ -31,7 +35,14 @@ const Home = () => {
 
             <div>
                 <h2 className="text-5xl text-teal-900">Customer Reviews</h2>
+                {
+                    reviews.slice(0,3).map(rev=> <CustomerReviews 
+                        key={rev._id} 
+                        data={rev}/> )
+                }
             </div>
+
+           
 
 
 
