@@ -1,5 +1,5 @@
 ## live site link : 
-## https://earnest-churros-558021.netlify.app/
+## https://dell-computer-webpage.netlify.app/
 
 
 ## এই ওয়েবসাইটে যা যা আছে তা নিচে উল্লেখ করা হলো : 
