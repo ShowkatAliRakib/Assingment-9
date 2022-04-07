@@ -22,4 +22,5 @@ button{
    border: 2px solid rgb(4, 160, 238);
    border-radius: 15px;
    padding: 5px;
+   margin-top: 10px;
 }

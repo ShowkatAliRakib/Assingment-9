@@ -1,0 +1,18 @@
+.card-container{
+    display: flex;
+}
+
+.cart{
+    margin:3px;
+   
+    width: 200px;
+    
+    border: 2px solid ;
+    padding: 10px;
+    height: 200px;
+    border: 2px solid rgb(30, 164, 174);
+    border-radius: 10px;
+}
+.comment{
+    width:100%
+}

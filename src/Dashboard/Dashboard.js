@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Area, AreaChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
+
 const Dashboard = () => {
     const [chart, setchart]=useState([])
 
@@ -21,7 +22,8 @@ const Dashboard = () => {
     //   </ResponsiveContainer>
 <div>
     
-<div>
+<div className="p-5 m-40 ">
+    <h1 className="text-5xl text-teal-900 m-10">Month Chart</h1>
         <ResponsiveContainer width="100%" height={400}>
                     <LineChart
                         width={800}
@@ -46,9 +48,11 @@ const Dashboard = () => {
     </div>
 
 
-    <div>
+    <div className="p-6 m-40">
+    <h1 className="text-5xl text-teal-900 m-10">Investment Chart</h1>
+
     <AreaChart
-      width={800}
+      width={600}
       height={400}
       data={chart}
       margin={{

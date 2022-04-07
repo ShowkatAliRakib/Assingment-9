@@ -6,8 +6,9 @@ import Reviews from './Reviews/Reviews';
 import Blogs from './Blogs/Blogs';
 import About from './About/About';
 import Home from './Home/Home';
-import Navbar from './Navbar/Navbar';
+
 import NotFound from './NotFound/NotFound';
+import Navbar from './Navbar/Navbar';
 
 
 
