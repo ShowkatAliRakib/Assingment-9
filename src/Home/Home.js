@@ -34,7 +34,7 @@ const Home = () => {
 
 
             <div>
-                <h2 className="text-5xl text-teal-900 mb-5">Customer Reviews: (03)</h2>
+                <h2 className="text-5xl text-teal-900 mb-5">Customer Reviews(03)</h2>
                 {
                     reviews.slice(0,3).map(rev=> <CustomerReviews 
                         key={rev._id} 
